@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #100707;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vmin;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  display: inline-block;
+  margin: 0.5vmin;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0 0 2rem rgb(236, 182, 83);
+  font-size: 8vmin;
+  color: #fff;
+}
+#reset {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #201cea;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
+
+#new-btn {
+  margin: 10px;
+  padding: 1rem;
+  background-color: #201cea;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  transition: 0.3s;
+}
+#msg {
+  color: #fff;
+  font-size: 5vmin;
+}
+.msg-container {
+  height: 100vmin;
+  gap: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
